@@ -1,0 +1,74 @@
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #0a5cff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #003c9e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Content sections */
+section {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Headings */
+h2 {
+    color: #0a5cff;
+}
+
+/* Button styling */
+button {
+    background-color: #0a5cff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #003c9e;
+}
+
+/* Code/diagram block */
+pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e0e0e0;
+}
