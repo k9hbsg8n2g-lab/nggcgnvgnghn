@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Integrated Web Application Demo</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Designing and Demonstrating an Integrated Web Application</h1>
+    <p>Cloud Computing, Data Transmission, and Internet Technologies</p>
+</header>
+
+<nav>
+    <a href="#cloud">Cloud Concepts</a>
+    <a href="#internet">Internet Technology</a>
+    <a href="#data">Data Transmission</a>
+    <a href="#integration">Integration & Synthesis</a>
+</nav>
+
+<!-- CLOUD COMPUTING SECTION -->
+<section id="cloud">
+    <h2>Understanding Cloud Computing</h2>
+    <h3>What is Cloud Computing?</h3>
+    <p>
+        Cloud computing allows users to store, manage, and process data on remote servers
+        accessed through the internet instead of on local computers or physical hard drives.
+        This enables scalability, flexibility, and cost efficiency.
+    </p>
+
+    <h3>Cloud Storage vs Traditional Storage</h3>
+    <p>
+        Traditional storage relies on local devices such as USB drives or internal hard disks.
+        Cloud storage stores data on remote servers maintained by providers like AWS or Google Cloud,
+        allowing access from anywhere with an internet connection.
+    </p>
+</section>
+
+<!-- INTERNET TECHNOLOGY SECTION -->
+<section id="internet">
+    <h2>Internet Technology Demonstration</h2>
+
+    <h3>DNS Server Functionality</h3>
+    <p>
+        A DNS (Domain Name System) server translates human-readable domain names into IP addresses.
+        For example, when a user enters <strong>www.example.com</strong>, the DNS server returns
+        its corresponding IP address so the browser can locate the web server.
+    </p>
+
+    <h3>Broadband Connection Example</h3>
+    <p>
+        Fiber-optic broadband uses light signals transmitted through glass cables to provide
+        extremely fast and reliable internet access. It supports high-speed data transmission
+        for streaming, cloud applications, and online gaming.
+    </p>
+</section>
+
+<!-- DATA TRANSMISSION SECTION -->
+<section id="data">
+    <h2>Data Transmission Example</h2>
+
+    <h3>Full-Duplex Communication Diagram</h3>
+    <pre>
+Device A  <=====>  Device B
+(Send & Receive simultaneously)
+    </pre>
+
+    <h3>Error-Checking Method</h3>
+    <p>
+        One common error-checking method is a checksum. The sender calculates a value based
+        on the data being sent. The receiver recalculates the checksum and compares it.
+        If the values do not match, an error is detected.
+    </p>
+
+    <button onclick="validateData()">Test Error Checking</button>
+</section>
+
+<!-- INTEGRATION & SYNTHESIS SECTION -->
+<section id="integration">
+    <h2>Integration, Synthesis, and Cloud Hosting</h2>
+
+    <h3>Journey of a Data Packet</h3>
+    <p>
+        When a user enters a website URL, the browser first contacts a DNS server to obtain
+        the IP address. The data packet then travels through routers across the internet,
+        reaching the destination server. The server processes the request and sends data
+        back to the browser, where it is displayed as a web page.
+    </p>
+
+    <h3>Server-Side Cloud Hosting</h3>
+    <p>
+        Hosting this project on a cloud platform means the files reside on remote servers.
+        The server handles HTTP requests, making this server-side hosting. Users access the
+        application through their browsers without storing the files locally.
+    </p>
+</section>
+
+<footer>
+    <p>Integrated Web Application Project | Student Demonstration</p>
+</footer>
+
+<!-- Link to external JavaScript file -->
+<script src="script.js"></script>
+
+</body>
+</html>
